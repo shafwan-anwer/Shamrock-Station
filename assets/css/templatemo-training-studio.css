@@ -1242,8 +1242,8 @@ preloader
     border-radius: 50%;
     -webkit-transform: translateX(0);
     transform: translateX(0);
-    -webkit-animation: dot 2.8s infinite;
-    animation: dot 2.8s infinite;
+    -webkit-animation: dot 1.8s infinite;
+    animation: dot 1.8s infinite;
 }
 
 .preloader-inner .dots {
@@ -1251,8 +1251,8 @@ preloader
     transform: translateX(0);
     margin-top: 12px;
     margin-left: 31px;
-    -webkit-animation: dots 2.8s infinite;
-    animation: dots 2.8s infinite;
+    -webkit-animation: dots 1.8s infinite;
+    animation: dots 1.8s infinite;
 }
 
 .preloader-inner .dots span {
