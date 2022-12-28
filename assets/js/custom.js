@@ -56,6 +56,8 @@
 
 
 	$(document).ready(function () {
+		document.getElementById('bg-video').play();
+
 	    $(document).on("scroll", onScroll);
 	    
 	    //smoothscroll
