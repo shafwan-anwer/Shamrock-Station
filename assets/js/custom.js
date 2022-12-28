@@ -56,8 +56,6 @@
 
 
 	$(document).ready(function () {
-		document.getElementById('bg-video').play();
-		consol.log("vfdv");
 
 	    $(document).on("scroll", onScroll);
 	    
