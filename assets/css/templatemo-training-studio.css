@@ -521,7 +521,9 @@ header
   }
 }
 
-@media (max-width: 767px) {
+
+
+@media (max-width: 1200px) {
   .header-area .main-nav .logo {
     color: #1e1e1e;
   }
@@ -633,7 +635,7 @@ header
   }
 }
 
-@media (min-width: 767px) {
+@media (min-width: 1200px) {
   .header-area .main-nav .nav {
     display: flex !important;
   }
@@ -1266,6 +1268,12 @@ preloader
 #map {
   width: 100%;
   margin: 20px;
+  text-align: center;
+  padding-right: 2%;
+}
+
+#map iframe {
+  width: 100%;
 }
 
 /* 
@@ -1275,17 +1283,18 @@ responsive
 */
 
 
+
 @media (max-width: 992px) {
-  
   #map {
     width: 100%;
   }
 
   #map iframe {
-    width: 90%;
+    width: 93%;
     height: 300px;
   }
-
+  
+  
   .banner1 {
     width: 100%;
     padding: 10%;
@@ -1332,6 +1341,7 @@ responsive
   }
 
 }
+
 
 @media (max-width: 450px) {
   .feature-item .right-content a.text-button {
